@@ -43,6 +43,7 @@ section{
     border-radius: 10px;
     background-color: #433016;
     padding: 20px;
+    align-self: center;
 }
 .list{
     background-color: #362712;
@@ -60,9 +61,13 @@ section{
 .Kiki{
     max-height: 300px;
 }
+.jiji{
+    width: 167px;
+}
 .Jiji{
     height: 150px;
     right: 0;
+    bottom: 380px;
     position: absolute;
 }
 footer{
