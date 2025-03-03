@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #221a0f;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+    color: #e39030;
+}
+h2{
+    color: #cda882;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #362712;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+a{
+    color: #dc364a;
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+.p{
+    color: #cda882;
+    font-size: large;
+}
+.play{
+    max-width: 350px;
+    max-height: fit-content;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #433016;
+    padding: 20px;
+}
+.list{
+    background-color: #362712;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+.Calcifer{
+    max-width: 200px;
+    padding-top: 100px;
+}
+.Totoro{
+    max-height: 300px;
+}
+.Kiki{
+    max-height: 300px;
+}
+.Jiji{
+    height: 150px;
+    right: 0;
+    position: absolute;
+}
+footer{
+    background-color: #362712;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+p{
+    color: #cda882;
+}
